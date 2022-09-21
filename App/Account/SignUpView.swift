@@ -31,7 +31,7 @@ struct SignUpView: View {
     var body: some View {
         Form {
             Section {
-                LabeledContent("User name") {
+                LabeledContent("Your name") {
                     TextField("User name", text: $username)
                         .textContentType(.username)
                         .multilineTextAlignment(.trailing)
